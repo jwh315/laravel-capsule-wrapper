@@ -1,4 +1,4 @@
-# eloquent-capsule-manager-wrapper
+# eloquent-capsule-wrapper
 Use the Eloquent ORM outside of the Laravel Framework with an existing PDO database connection.
 
 ### disclaimer
