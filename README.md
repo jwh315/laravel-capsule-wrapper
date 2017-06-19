@@ -1,7 +1,8 @@
 # eloquent-capsule-manager-wrapper
 Use the Eloquent ORM outside of the Laravel Framework with an existing PDO database connection.
 
-##disclaimer
+### disclaimer
+
 This project is currently a proof of concept, without tests. I have manually tested it using a few standard 
 Laravel operations with success, but I cannot currently vouch for its robustness in a real world PHP application.
 
@@ -13,7 +14,7 @@ but I could be missing something.
 Lastly, this only works for Mysql currently. This is done in `CapsuleManager\Wrapper\DatabaseManager::addDefaultConnection()`, 
 theoretically you should be able to swap out any of the other `Illuminate\Database` connection classes as needed.
 
-##usage
+### usage
 
 This is pretty much the same as the usage instructions on the [Illuminate\Database](https://github.com/illuminate/database)
 repository. It should be noted that I have not tested the `Schema Builder`
