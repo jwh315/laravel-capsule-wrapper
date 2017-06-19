@@ -2,7 +2,7 @@
     "name": "jwh315/laravel-capsule-wrapper",
     "description": "Use the Eloquent ORM outside of the Laravel Framework with an existing PDO database connection.",
     "type": "library",
-    "require-dev": {
+    "require": {
         "illuminate/database": "^5.4",
         "illuminate/events": "^5.4"
     },
