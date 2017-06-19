@@ -14,6 +14,10 @@ but I could be missing something.
 Lastly, this only works for Mysql currently. This is done in `CapsuleManager\Wrapper\DatabaseManager::addDefaultConnection()`, 
 theoretically you should be able to swap out any of the other `Illuminate\Database` connection classes as needed.
 
+### installation
+
+	composer require jwh315/laravel-capsule-wrapper
+
 ### usage
 
 This is pretty much the same as the usage instructions on the [Illuminate\Database](https://github.com/illuminate/database)
